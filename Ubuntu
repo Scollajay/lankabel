@@ -28,11 +28,9 @@ sudo rm /var/www/html/phpinfo.php
 
 sudo apt install mariadb-server mariadb-client
 
-sudo systemctl status mariadb        kijen in je server of mariadb actief ziet
+sudo systemctl status mariadb        kijken in je server of mariadb actief ziet
 
 sudo mysql_secure_installation
-
-sudo apt-get install apache2 mysql-server -y
 
 sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-curl php-mbstring php-intl php-imagick php-xml php-zip php-mysql php-bcmath php-gmp -y
 
@@ -40,7 +38,7 @@ sudo mysql_secure_installation
 
 sudo mysql -u root -p
 
-CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'PASSWORD';
+CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'PASSWORD';    bij nextloud -> naam van gebruiker. bij localhost-> achternaam. PASSWORD->wachtwoord die woord vermeld bij examen
 
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost';
 
@@ -83,3 +81,9 @@ http://SERVER_IP/nextcloud         kijken of nextcloud werkt
 
 https://www.google.com/imgres?imgurl=x-raw-image%3A%2F%2F%2F208ac55477dbd08d10e30dbb00a38da7ddad0be71a35bf0266768d8109c89ca0&imgrefurl=http%3A%2F%2Fvapenik.s.cnl.sk%2Fpcsiete%2FCCNA1%2F07_IP_Addressing.pdf&tbnid=jdDbd1TFiiCJQM&vet=12ahUKEwjWh8rXrNb0AhVG9aQKHawBBDIQMygCegUIARCtAQ..i&docid=6TPeCeJwiHNcOM&w=878&h=449&q=comparing%20the%20subnet%20mask%20and%20prefix%20length&ved=2ahUKEwjWh8rXrNb0AhVG9aQKHawBBDIQMygCegUIARCtAQ
 Subent tabel
+
+
+
+
+
+https://github.com/technoforyou/Technoforyou/blob/main/T 
