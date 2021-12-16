@@ -1,5 +1,13 @@
 Linux Commands 
 
+LAMP activeren:
+Apache activeren (sudo systemctl start apache2)
+Mysql activeren (sudo systemctl start mysql)
+Php activeren (sudo systemctl start php)
+
+
+EERST DIT:
+-------------------------------------
 sudo apt update
 sudo apt upgrade
 
@@ -7,7 +15,7 @@ sudo ufw allow ssh
 sudo ufw allow 80
 sudo ufw allow 443
 sudo ufw enable
-
+------------------------------------
 sudo apt install apache2
 
 sudo systemctl status apache2         (active running)
@@ -38,9 +46,11 @@ sudo mysql_secure_installation
 
 sudo mysql -u root -p
 
+DAARNA DIT:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'PASSWORD';    bij nextloud -> naam van gebruiker. bij localhost-> achternaam. PASSWORD->wachtwoord die woord vermeld bij examen
 
-GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost';
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost';  bij nextloud -> naam van gebruiker. bij localhost-> achternaam. PASSWORD->wachtwoord die woord vermeld bij examen
 
 FLUSH PRIVILEGES;
 exit
@@ -78,13 +88,27 @@ sudo sed -i '/^memory_limit =/s/=.*/= 512M/' /etc/php/7.4/apache2/php.ini
 sudo systemctl restart apache2
 
 http://SERVER_IP/nextcloud         kijken of nextcloud werkt
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 https://www.google.com/imgres?imgurl=x-raw-image%3A%2F%2F%2F208ac55477dbd08d10e30dbb00a38da7ddad0be71a35bf0266768d8109c89ca0&imgrefurl=http%3A%2F%2Fvapenik.s.cnl.sk%2Fpcsiete%2FCCNA1%2F07_IP_Addressing.pdf&tbnid=jdDbd1TFiiCJQM&vet=12ahUKEwjWh8rXrNb0AhVG9aQKHawBBDIQMygCegUIARCtAQ..i&docid=6TPeCeJwiHNcOM&w=878&h=449&q=comparing%20the%20subnet%20mask%20and%20prefix%20length&ved=2ahUKEwjWh8rXrNb0AhVG9aQKHawBBDIQMygCegUIARCtAQ
 Subent tabel
 
+Behoefte analyse (MoScoW)
+Beschrijf kernachtig in functionele termen het probleem. 
+U kunt hierbij bewust breed of smal definiëren.
+Let er ook op dat u het probleem niet verwart met de gewenste oplossing of impliciet te schrijft naar een bepaalde technologie. 
 
 
+Functioneel ontwerp
+(letterlijk) overnemen van behoefte analyse
 
+Technische ontwerp
+IP plan
+subnetten
+/30 = 252
+
+Testrapportage
+screenshots van LAMP en Nextcloud installatie en website dat je bent ingelogd
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://github.com/technoforyou/Technoforyou/blob/main/T 
 
