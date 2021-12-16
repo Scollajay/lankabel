@@ -1,12 +1,14 @@
 Linux Commands 
 
+EERST DIT:
+
 LAMP activeren:
 Apache activeren (sudo systemctl start apache2)
 Mysql activeren (sudo systemctl start mysql)
 Php activeren (sudo systemctl start php)
 
 
-EERST DIT:
+DAARNA DIT:
 -------------------------------------
 sudo apt update
 sudo apt upgrade
