@@ -8,6 +8,7 @@ Mysql activeren (sudo systemctl start mysql)
 Php activeren (sudo systemctl start php)
 
 
+
 DAARNA DIT:
 -------------------------------------
 sudo apt update
@@ -99,7 +100,6 @@ Beschrijf kernachtig in functionele termen het probleem.
 U kunt hierbij bewust breed of smal definiëren.
 Let er ook op dat u het probleem niet verwart met de gewenste oplossing of impliciet te schrijft naar een bepaalde technologie. 
 
-
 Functioneel ontwerp
 (letterlijk) overnemen van behoefte analyse
 
@@ -110,6 +110,7 @@ subnetten
 
 Testrapportage
 screenshots van LAMP en Nextcloud installatie en website dat je bent ingelogd
+(active and running zie coammand in github)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://github.com/technoforyou/Technoforyou/blob/main/T 
