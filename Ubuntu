@@ -4,15 +4,6 @@ Linux Commands
 
 EERST DIT:
 
-LAMP activeren:
-Apache activeren (sudo systemctl start apache2)
-Mysql activeren (sudo systemctl start mysql)
-Php activeren (sudo systemctl start php)
-
-
-
-DAARNA DIT:
--------------------------------------
 sudo apt update
 sudo apt upgrade
 
@@ -20,6 +11,15 @@ sudo ufw allow ssh
 sudo ufw allow 80
 sudo ufw allow 443
 sudo ufw enable
+
+
+DAARNA DIT:
+-------------------------------------
+LAMP activeren:
+
+Apache activeren (sudo systemctl start apache2)
+Mysql activeren (sudo systemctl start mysql)
+Php activeren (sudo systemctl start php)
 ------------------------------------
 sudo apt install apache2
 
