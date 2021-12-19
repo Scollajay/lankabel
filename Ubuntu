@@ -105,6 +105,10 @@ Vat aan het eind het gesprek samen en vertelt de vervolgprocedure."
 Geen vaktaal gebruiken
 !--De behoefte van de klant is vastgelegd--!
 
+Een behoefteanalyse helpt u de juiste vraag te formuleren bij een probleem waarvoor u een oplossing zoekt. 
+Het is een onderzoek naar een behoefte van uw organisatie en het begrijpen van 'de vraag achter de vraag'. 
+Een behoefteanalyse zorgt ervoor dat een aanbesteding gericht is op het oplossen van het juiste probleem.
+
 Inleding:
 
 In dit document worden alle eisen en wensen van de klant samengesteld        
@@ -157,6 +161,11 @@ Functioneel ontwerp (baby taal uitleggen) opdrachtgever heeft geen kennis
 
 *!-Gemaakte keuzes (moscow) worden Overtuigend toegelicht-!*
 Collega's zijn volledig controleren
+
+Door middel van een functioneel ontwerp kunnen opdrachtgever en ontwikkelaar zien wat er precies ontwikkeld gaat worden.
+Hoe bijvoorbeeld een applicatie werkt 
+en welke elementen er in de website terug komen of wat de onderlinge verhoudingen in de website zijn.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technische ontwerp
 !-Minimaal >70% van de eisen uit het FO is verwerkt in de TO-!
@@ -166,6 +175,11 @@ Documententaie is Gezipt op bureaublad (alle analyses)
 IP plan
 subnetten
 /30 = 252
+
+Een Technisch Ontwerp (TO) is voor developers een handleiding waarin zij precies kunnen zien wat er ontwikkeld dient te worden. 
+Het TO wordt gemaakt op basis van het Functioneel Ontwerp (FO). 
+In het TO staan alle technische aspecten die benodigd zijn om de functionaliteiten uit het FO te realiseren.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Testrapportage
 screenshots van LAMP en Nextcloud installatie en website dat je bent ingelogd
@@ -173,6 +187,11 @@ screenshots van LAMP en Nextcloud installatie en website dat je bent ingelogd
 Word beschreven hoe er getest gaat worden en wanneer de test is geslaagd (screenshots)
 (SCREENSHOTS ZIJN BELANGRIJK)
 !--Testen zijn uitgevoerd en VOLLEDIG vastgelegd (screenshots)--!
+
+Het doel van een testplan is het beschrijven van de aanpak voor het testen van een nieuw te ontwikkelen applicatie of een wijziging van een systeem. 
+Het geeft aan op welke wijze de testen zullen worden voorbereid en uitgevoerd, de diepgang van de testen, door wie, wanneer 
+En welke middelen 
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://github.com/technoforyou/Technoforyou/blob/main/T 
